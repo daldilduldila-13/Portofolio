@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Di Balik Sampul — Blog Hobi Membaca Novel</title>
+  <style>
+    body {
+      font-family: 'Georgia', serif;
+      background-color: #f8f7f3;
+      color: #111;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #1e3a8a;
+      color: #fff;
+      text-align: center;
+      padding: 20px 10px;
+    }
+    header h1 {
+      font-family: 'Brush Script MT', cursive;
+      font-size: 40px;
+      margin: 0;
+    }
+    nav {
+      background-color: #e5e5e5;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: #1e3a8a;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 900px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      color: #1e3a8a;
+      border-bottom: 2px solid #1e3a8a;
+      padding-bottom: 5px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 10px;
+      margin-top: 10px;
+    }
+    .gallery img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+      border: 2px solid #ddd;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 10px;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-family: inherit;
+    }
+    button {
+      padding: 10px;
+      background-color: #1e3a8a;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #172554;
+    }
+    footer {
+      background-color: #1e3a8a;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Di Balik Sampul</h1>
+    <p>Blog Hobi Membaca Novel oleh Ica Fais Fadillah Sq</p>
+  </header>
+
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#ulasan">Ulasan Novel</a>
+    <a href="#rekomendasi">Rekomendasi Bacaan</a>
+    <a href="#galeri">Galeri Sampul</a>
+    <a href="#tentang">Tentang Saya</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+
+  <main>
+    <section id="beranda">
+      <h2>Selamat Datang di Blog Di Balik Sampul</h2>
+      <p>Blog ini dibuat untuk para pecinta literasi dan pembaca novel. Di sini, kamu akan menemukan ulasan berbagai novel, rekomendasi bacaan, dan inspirasi dari dunia sastra. Semoga dapat menumbuhkan semangat membaca di kalangan pembaca!</p>
+    </section>
+
+    <section id="ulasan">
+      <h2>Ulasan Novel</h2>
+      <article>
+        <h3>Bayangan di Balik Kota</h3>
+        <p>Novel ini mengeksplorasi konflik batin tokoh utama dengan penceritaan yang lembut dan menyentuh. Kisah ini memberikan pandangan baru tentang kehidupan kota dan sisi gelap di balik cahaya gemerlapnya.</p>
+      </article>
+      <article>
+        <h3>Musim Hujan di Jalanan</h3>
+        <p>Ulasan mendalam tentang simbolisme air hujan sebagai metafora penyucian diri dan kehilangan dalam perjalanan hidup sang tokoh utama.</p>
+      </article>
+    </section>
+
+    <section id="rekomendasi">
+      <h2>Rekomendasi Bacaan</h2>
+      <ul>
+        <li><strong>Pelabuhan Rindu</strong> — Kisah coming-of-age penuh makna.</li>
+        <li><strong>Misteri di Lorong Senja</strong> — Ketegangan dan misteri yang terjaga hingga akhir.</li>
+        <li><strong>Langit Tanpa Bintang</strong> — Roman yang lembut dengan pesan moral mendalam.</li>
+      </ul>
+    </section>
+
+    <section id="galeri">
+      <h2>Galeri Sampul Novel</h2>
+      <div class="gallery">
+        <img src="https://via.placeholder.com/200x300?text=Sampul+1" alt="Sampul 1">
+        <img src="https://via.placeholder.com/200x300?text=Sampul+2" alt="Sampul 2">
+        <img src="https://via.placeholder.com/200x300?text=Sampul+3" alt="Sampul 3">
+        <img src="https://via.placeholder.com/200x300?text=Sampul+4" alt="Sampul 4">
+      </div>
+    </section>
+
+    <section id="tentang">
+      <h2>Tentang Saya</h2>
+      <p>Halo! Saya <strong>Ica Fais Fadillah Sq</strong>, pecinta literasi dan penggemar novel dari berbagai genre. Blog ini saya buat sebagai wadah untuk berbagi ulasan, pandangan, serta rekomendasi bacaan yang dapat menginspirasi dan menemani waktu santai kamu.</p>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak</h2>
+      <p>Silakan tinggalkan pesan, saran, atau rekomendasi novel favorit kamu melalui formulir di bawah ini:</p>
+      <form>
+        <input type="text" name="nama" placeholder="Nama" required>
+        <input type="email" name="email" placeholder="Email" required>
+        <textarea name="pesan" rows="4" placeholder="Pesan kamu..." required></textarea>
+        <button type="submit">Kirim</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Di Balik Sampul — Ica Fais Fadillah Sq | Semua hak cipta dilindungi.
+  </footer>
+</body>
+</html>
